@@ -16,7 +16,7 @@ export const Hero = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="space-y-8 animate-fade-in">
           <div className="inline-block">
-            <div className="w-40 h-40 mx-auto rounded-full bg-gradient-to-br from-pink-500 via-purple-500 to-pink-500 p-1 animate-spin-slow shadow-2xl mt-20 md:mt-0">
+            <div className="w-40 h-40 mx-auto rounded-full bg-gradient-to-br from-pink-500 via-purple-500 to-pink-500 p-1 animate-spin-pause shadow-2xl mt-20 md:mt-0">
               <div className="w-full h-full rounded-full bg-white dark:bg-gray-900 flex items-center justify-center overflow-hidden">
                 <img
                   src={antonioImage}

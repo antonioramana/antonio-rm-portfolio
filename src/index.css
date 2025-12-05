@@ -33,11 +33,27 @@
     }
   }
 
+  @keyframes spin-pause {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
   .animate-fade-in {
     animation: fade-in 1s ease-out;
   }
 
   .animate-spin-slow {
     animation: spin-slow 3s linear infinite;
+  }
+
+  .animate-spin-pause {
+    animation: spin-pause 8s linear infinite;
   }
 }
