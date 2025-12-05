@@ -1,5 +1,6 @@
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
+import antonioImage from '../assets/antonio.png';
 
 export const Header = () => {
 
@@ -28,7 +29,7 @@ export const Header = () => {
           <div className="flex-shrink-0 flex items-center gap-3">
             <div className="w-10 h-10 rounded-full bg-gradient-to-br from-pink-500 via-purple-500 to-pink-500 p-0.5 shadow-lg">
               <img
-                src="src/assets/antonio.png"
+                src={antonioImage}
                 alt="Profil"
                 className="w-full h-full rounded-full object-cover"
               />

@@ -1,4 +1,5 @@
 import { Github, Linkedin, Mail, ArrowDown } from 'lucide-react';
+import antonioImage from '../assets/antonio.png';
 
 export const Hero = () => {
   const scrollToContact = () => {
@@ -18,7 +19,7 @@ export const Hero = () => {
             <div className="w-40 h-40 mx-auto rounded-full bg-gradient-to-br from-pink-500 via-purple-500 to-pink-500 p-1 animate-spin-slow shadow-2xl mt-20 md:mt-0">
               <div className="w-full h-full rounded-full bg-white dark:bg-gray-900 flex items-center justify-center overflow-hidden">
                 <img
-                  src="src/assets/antonio.png"
+                  src={antonioImage}
                   alt="Profil"
                   className="w-full h-full object-cover"
                 />
