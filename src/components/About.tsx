@@ -34,6 +34,14 @@ export const About = () => {
     'Tools': Wrench
   };
 
+  const categoryLabels: Record<string, string> = {
+    'Languages': 'Languages',
+    'Frontend': 'Frontend',
+    'Backend': 'Backend',
+    'Database': 'Bases de Données',
+    'Tools': 'Outils'
+  };
+
   const features = [
     {
       icon: Code2,
@@ -113,7 +121,7 @@ export const About = () => {
                       <CategoryIcon size={24} className="text-white" />
                     </div>
                     <h4 className="text-xl font-semibold text-gray-900 dark:text-white">
-                      {category}
+                      {categoryLabels[category] || category}
                     </h4>
                   </div>
 
