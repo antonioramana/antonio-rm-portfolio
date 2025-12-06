@@ -78,7 +78,7 @@ export const About = () => {
         <div className="grid md:grid-cols-2 gap-12 mb-16">
           <div className="space-y-6">
             <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-              Développeur passionné avec plusieurs années d'expérience dans la création d'applications web modernes et performantes. Je me spécialise dans le développement full stack avec un fort accent sur l'expérience utilisateur et la qualité du code.
+              Développeur passionné, récemment diplômé ingénieur en Génie Logiciel et Bases de Données. Je me spécialise dans le développement full stack avec un fort accent sur l'expérience utilisateur et la qualité du code.
             </p>
             <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
               Mon approche combine créativité et rigueur technique pour livrer des solutions qui non seulement répondent aux besoins fonctionnels, mais offrent également une expérience utilisateur exceptionnelle.
