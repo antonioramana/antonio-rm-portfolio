@@ -1,6 +1,6 @@
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
-import antonioImage from '../assets/antonio.png';
+import antonioImage from '../assets/me.png';
 
 export const Header = () => {
 

@@ -1,5 +1,5 @@
 import { Github, Linkedin, Mail, ArrowDown } from 'lucide-react';
-import antonioImage from '../assets/antonio.png';
+import antonioImage from '../assets/me.png';
 
 export const Hero = () => {
   const scrollToContact = () => {
