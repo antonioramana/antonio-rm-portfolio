@@ -1,5 +1,27 @@
 import { useState } from 'react';
 import { ExternalLink, Github, X, ChevronRight, ChevronLeft, Globe, Smartphone } from 'lucide-react';
+import hitadidyHome from '../assets/projects/hitadidy/home.jpeg';
+import hitadidyHome2 from '../assets/projects/hitadidy/home2.jpeg';
+import hitadidyQuestionsAnswers from '../assets/projects/hitadidy/questions-answers.png';
+import hitadidyQuiz2 from '../assets/projects/hitadidy/quiz2.png';
+import hitadidyQuizResult from '../assets/projects/hitadidy/quiz-result.png';
+import nahandrokoHome from '../assets/projects/nahandroko/home.png';
+import nahandrokoGenerationRecette from '../assets/projects/nahandroko/generation-recette.png';
+import nahandrokoEtape from '../assets/projects/nahandroko/etape.png';
+import nahandrokoFavoris from '../assets/projects/nahandroko/favoris.png';
+import asheraHome from '../assets/projects/ashera/home.png';
+import asheraListeVente from '../assets/projects/ashera/liste-vente.png';
+import asheraPlanAbonnement from '../assets/projects/ashera/plan-abonnnement.png';
+import asheraNotificationGagnant from '../assets/projects/ashera/notification-gagnant.png';
+import asheraDetailEnchere from '../assets/projects/ashera/detail.png';
+import asheraChatBot from '../assets/projects/ashera/chat-bot.png';
+import tolotananaHome from '../assets/projects/tolotanana/home.png';
+import tolotananaInscription from '../assets/projects/tolotanana/inscription.png';
+import tolotananaListCampagn from '../assets/projects/tolotanana/list-campagn.png';
+import tolotananaDetailCampagn from '../assets/projects/tolotanana/detail-campagn.png';
+import tolotananaDashAdmin from '../assets/projects/tolotanana/dash-admin.png';
+import tolotananaTransactionAdmin from '../assets/projects/tolotanana/transaction-admin.png';
+import tolotananaInfoBancaire from '../assets/projects/tolotanana/info-bancaire-tolotanana.png';
 
 interface ProjectPage {
   name: string;
@@ -46,125 +68,133 @@ export const Projects = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'Plateforme e-commerce complète avec gestion de panier, paiements et tableau de bord admin',
-      image: 'https://images.pexels.com/photos/6214476/pexels-photo-6214476.jpeg?auto=compress&cs=tinysrgb&w=800',
+      title: 'Hitadidy',
+      description: "Une application intelligente de révision alimentée par l'IA qui transforme n'importe quel sujet ou document en cartes de révision interactives. Créez facilement des flashcards personnalisées à partir de vos fichiers (images, PDF) ou de simples sujets, et testez vos connaissances avec des quiz adaptatifs.",
+      image: hitadidyHome,
       type: 'web',
-      technologies: ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'Stripe'],
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com',
+      technologies: ['React', 'TypeScript', 'Tailwind Css', 'API Gemini', 'LocalStorage'],
+      liveUrl: 'https://hitadidy.onrender.com/',
+      githubUrl: 'https://github.com/antonioramana',
       screenshots: [
-        'https://images.pexels.com/photos/5632399/pexels-photo-5632399.jpeg?auto=compress&cs=tinysrgb&w=1200',
-        'https://images.pexels.com/photos/3683519/pexels-photo-3683519.jpeg?auto=compress&cs=tinysrgb&w=1200',
-        'https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1200',
-        'https://images.pexels.com/photos/6476589/pexels-photo-6476589.jpeg?auto=compress&cs=tinysrgb&w=1200'
+        hitadidyHome,
+        hitadidyHome2,
+        hitadidyQuestionsAnswers,
+        hitadidyQuiz2,
+        hitadidyQuizResult,
       ],
       pages: [
-        { name: 'Accueil', description: 'Page d\'accueil avec produits en vedette et catégories', image: 'https://images.pexels.com/photos/5632399/pexels-photo-5632399.jpeg?auto=compress&cs=tinysrgb&w=600' },
-        { name: 'Catalogue', description: 'Liste des produits avec filtres et recherche avancée', image: 'https://images.pexels.com/photos/3683519/pexels-photo-3683519.jpeg?auto=compress&cs=tinysrgb&w=600' },
-        { name: 'Détail Produit', description: 'Informations détaillées, images et avis clients', image: 'https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=600' },
-        { name: 'Panier', description: 'Gestion du panier avec calcul en temps réel', image: 'https://images.pexels.com/photos/6476589/pexels-photo-6476589.jpeg?auto=compress&cs=tinysrgb&w=600' },
-        { name: 'Checkout', description: 'Processus de paiement sécurisé avec Stripe', image: 'https://images.pexels.com/photos/5083488/pexels-photo-5083488.jpeg?auto=compress&cs=tinysrgb&w=600' },
-        { name: 'Dashboard Admin', description: 'Gestion des produits, commandes et statistiques', image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=600' }
+        { name: 'Création de Cartes', description: 'Page d\'accueil pour créer des cartes de révision à partir de sujets ou documents avec l\'IA', image: hitadidyHome },
+        { name: 'Gestion des Paquets', description: 'Interface de gestion des paquets de révision avec catégories (Toutes, À revoir, Maîtrisées)', image: hitadidyHome2 },
+        { name: 'Quiz en Cours', description: 'Interface de quiz interactif avec questions à choix multiples et suivi du temps', image: hitadidyQuestionsAnswers },
+        { name: 'Question de Quiz', description: 'Affichage des questions avec réponses correctes/incorrectes mises en évidence', image: hitadidyQuiz2 },
+        { name: 'Résultats du Quiz', description: 'Page de résultats avec score, temps écoulé et options pour recommencer ou retourner', image: hitadidyQuizResult }
       ],
       features: [
-        'Authentification sécurisée',
-        'Paiements intégrés',
-        'Gestion de stock en temps réel',
-        'Notifications email',
-        'Responsive design'
+        'Flashcards avec génération par IA,',
+        'Quiz interactifs',
+        'Suivi de maîtrise',
+        'Sauvegarde localement',
+        'Interface responsive'
       ]
     },
     {
       id: 2,
-      title: 'Application de Gestion de Projets',
-      description: 'Outil collaboratif pour gérer projets et équipes avec suivi en temps réel',
-      image: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800',
+      title: 'Tolotanana',
+      description: "Une plateforme de crowdfunding (financement participatif) qui permet de connecter les personnes généreuses aux causes qui ont besoin d'aide. La plateforme permet aux utilisateurs de créer des campagnes de collecte de fonds, de faire des dons, et de suivre l'impact de leurs contributions en temps réel.",
+      image: tolotananaHome,
       type: 'web',
-      technologies: ['Vue.js', 'Express', 'MongoDB', 'Socket.io'],
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com',
+      technologies: ['TypeScript','Next.js','Tailwind CSS', 'Nest.js', 'PostgreSQL'],
+      liveUrl: 'https://tolotanana-next-frontend-miix.onrender.com/',
+      githubUrl: 'https://github.com/antonioramana',
       screenshots: [
-        'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1200',
-        'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1200',
-        'https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&w=1200',
-        'https://images.pexels.com/photos/3184170/pexels-photo-3184170.jpeg?auto=compress&cs=tinysrgb&w=1200'
+        tolotananaHome,
+        tolotananaInscription,
+        tolotananaListCampagn,
+        tolotananaDetailCampagn,
+        tolotananaDashAdmin,
+        tolotananaTransactionAdmin,
+        tolotananaInfoBancaire
       ],
       pages: [
-        { name: 'Dashboard', description: 'Vue d\'ensemble des projets et tâches', image: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=600' },
-        { name: 'Liste Projets', description: 'Tous les projets avec statuts et progression', image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=600' },
-        { name: 'Détail Projet', description: 'Tâches, membres et documents du projet', image: 'https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&w=600' },
-        { name: 'Kanban Board', description: 'Gestion visuelle des tâches en drag & drop', image: 'https://images.pexels.com/photos/3184170/pexels-photo-3184170.jpeg?auto=compress&cs=tinysrgb&w=600' },
-        { name: 'Calendrier', description: 'Planning et échéances des tâches', image: 'https://images.pexels.com/photos/3380804/pexels-photo-3380804.jpeg?auto=compress&cs=tinysrgb&w=600' },
-        { name: 'Équipe', description: 'Gestion des membres et permissions', image: 'https://images.pexels.com/photos/3184638/pexels-photo-3184638.jpeg?auto=compress&cs=tinysrgb&w=600' }
+        { name: 'Page d\'Accueil', description: 'Page d\'accueil avec présentation de la plateforme, statistiques et call-to-action', image: tolotananaHome },
+        { name: 'Inscription', description: 'Modal d\'inscription avec formulaire de création de compte et reCAPTCHA', image: tolotananaInscription },
+        { name: 'Liste des Campagnes', description: 'Page de découverte des campagnes avec filtres, recherche et statistiques', image: tolotananaListCampagn },
+        { name: 'Détail d\'une Campagne', description: 'Page détaillée d\'une campagne avec progression, organisateur et modal de don', image: tolotananaDetailCampagn },
+        { name: 'Dashboard Admin', description: 'Vue d\'ensemble de la plateforme avec métriques clés, graphiques et statistiques', image: tolotananaDashAdmin },
+        { name: 'Transactions Admin', description: 'Gestion des transactions et paiements dans le tableau de bord administrateur', image: tolotananaTransactionAdmin },
+        { name: 'Informations Bancaires', description: 'Configuration des informations bancaires et méthodes de paiement Mobile Money', image: tolotananaInfoBancaire }
       ],
       features: [
-        'Collaboration en temps réel',
+        'Participation en temps réel',
+        'Vérification par reCAPTCHA ',
         'Système de notifications',
-        'Partage de fichiers',
+        'Partage de capagnes',
         'Graphiques de progression',
-        'Export de rapports'
+        'Transaction'
       ]
     },
     {
       id: 3,
-      title: 'Réseau Social',
-      description: 'Plateforme sociale avec posts, commentaires, likes et messagerie instantanée',
-      image: 'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=800',
-      type: 'mobile',
-      technologies: ['React Native', 'Firebase', 'Redux', 'WebRTC'],
-      githubUrl: 'https://github.com',
+      title: 'Nahandroko',
+      description: 'Une application web qui génère des recettes de cuisine personnalisées à partir des ingrédients que vous avez dans votre frigo.',
+      image: nahandrokoHome,
+      type: 'web',
+      technologies: ['React', 'TypeScript', 'Tailwind Css', 'API Gemini', 'LocalStorage'],
+      liveUrl: 'https://nahandroko.onrender.com/',
+      githubUrl: 'https://github.com/antonioramana',
       screenshots: [
-        'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=1200',
-        'https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=1200',
-        'https://images.pexels.com/photos/4458554/pexels-photo-4458554.jpeg?auto=compress&cs=tinysrgb&w=1200',
-        'https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=1200'
+        nahandrokoHome,
+        nahandrokoGenerationRecette,
+        nahandrokoEtape,
+        nahandrokoFavoris
       ],
       pages: [
-        { name: 'Feed', description: 'Fil d\'actualité avec posts et interactions', image: 'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=600' },
-        { name: 'Profil', description: 'Page profil personnalisable avec bio et posts', image: 'https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=600' },
-        { name: 'Recherche', description: 'Recherche d\'utilisateurs et contenus', image: 'https://images.pexels.com/photos/4458554/pexels-photo-4458554.jpeg?auto=compress&cs=tinysrgb&w=600' },
-        { name: 'Messages', description: 'Messagerie instantanée et appels vidéo', image: 'https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=600' },
-        { name: 'Notifications', description: 'Centre de notifications en temps réel', image: 'https://images.pexels.com/photos/4065876/pexels-photo-4065876.jpeg?auto=compress&cs=tinysrgb&w=600' },
-        { name: 'Paramètres', description: 'Configuration du compte et confidentialité', image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=600' }
+        { name: 'Page d\'Accueil', description: 'Interface principale pour saisir les ingrédients disponibles et générer des recettes', image: nahandrokoHome },
+        { name: 'Génération de Recettes', description: 'Affichage des recettes générées par l\'IA à partir des ingrédients saisis', image: nahandrokoGenerationRecette },
+        { name: 'Détails de Recette', description: 'Carte détaillée de recette avec étapes de préparation, ingrédients et temps de cuisson', image: nahandrokoEtape },
+        { name: 'Mes Favoris', description: 'Page de gestion des recettes favorites avec possibilité de les consulter et supprimer', image: nahandrokoFavoris }
       ],
       features: [
-        'Upload d\'images et vidéos',
-        'Système de likes et commentaires',
-        'Appels vidéo intégrés',
-        'Stories éphémères',
-        'Mode sombre/clair'
-      ]
+        'Génération de recettes',
+        'Système de favoris',
+        'Proposition de recettes par IA',
+        'Interface moderne',
+     ]
     },
     {
       id: 4,
-      title: 'Dashboard Analytics',
-      description: 'Tableau de bord analytique avec graphiques interactifs et exports de données',
-      image: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800',
+      title: 'Ashera',
+      description: 'Une plateforme de vente aux enchères en temps réel',
+      image: asheraHome,
       type: 'web',
-      technologies: ['React', 'D3.js', '', 'FastAPI', 'Redis'],
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com',
+      technologies: ['TypeScript','React.js','Tailwind CSS', 'Nest.js', 'Socket.io', 'PostgreSQL'],
+      liveUrl: 'https://github.com/antonioramana',
+      githubUrl: 'https://github.com/antonioramana',
       screenshots: [
-        'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1200',
-        'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=1200',
-        'https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=1200',
-        'https://images.pexels.com/photos/7567443/pexels-photo-7567443.jpeg?auto=compress&cs=tinysrgb&w=1200'
+        asheraHome,
+        asheraListeVente,
+        asheraPlanAbonnement,
+        asheraNotificationGagnant,
+        asheraDetailEnchere,
+        asheraChatBot
       ],
       pages: [
-        { name: 'Vue d\'ensemble', description: 'KPIs principaux et graphiques de synthèse', image: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=600' },
-        { name: 'Analytics', description: 'Analyses détaillées avec filtres personnalisés', image: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=600' },
-        { name: 'Rapports', description: 'Génération de rapports personnalisés', image: 'https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=600' },
-        { name: 'Utilisateurs', description: 'Analyse du comportement utilisateurs', image: 'https://images.pexels.com/photos/7567443/pexels-photo-7567443.jpeg?auto=compress&cs=tinysrgb&w=600' },
-        { name: 'Performance', description: 'Métriques de performance système', image: 'https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=600' },
-        { name: 'Export', description: 'Export des données en différents formats', image: 'https://images.pexels.com/photos/5483077/pexels-photo-5483077.jpeg?auto=compress&cs=tinysrgb&w=600' }
+        { name: 'Page d\'Accueil', description: 'Page d\'accueil avec présentation de la plateforme, statistiques et enchères en direct', image: asheraHome },
+        { name: 'Liste des Enchères', description: 'Page de liste de toutes les enchères avec filtres avancés et catégories', image: asheraListeVente },
+        { name: 'Plans d\'Abonnement', description: 'Page de gestion des abonnements avec les différents plans (Basique, Entreprise, Premium)', image: asheraPlanAbonnement },
+        { name: 'Notification de Gain', description: 'Modal de félicitations pour les enchères remportées avec options de paiement', image: asheraNotificationGagnant },
+        { name: 'Détail d\'une Enchère', description: 'Page détaillée d\'une enchère avec options d\'offre, historique et chat en direct', image: asheraDetailEnchere },
+        { name: 'Assistant IA Chatbot', description: 'Interface de chatbot intelligent pour répondre aux questions sur les produits et les enchères', image: asheraChatBot }
       ],
       features: [
-        'Graphiques interactifs',
-        'Filtres avancés',
-        'Export PDF/Excel',
-        'Alertes personnalisées',
-        'API REST complète'
+        'Authentification',
+        'Mise en temps réel',
+        'Chatbot intelligent',
+        'Notification',
+        'Email',
+        'Paiement',
+        'Livraison',
+        'Abonnement',
       ]
     }
   ];
@@ -231,7 +261,7 @@ export const Projects = () => {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent"></div>
               </div>
@@ -315,7 +345,7 @@ export const Projects = () => {
                     <img
                       src={selectedProject.screenshots[currentImageIndex]}
                       alt={`Screenshot ${currentImageIndex + 1}`}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-contain"
                     />
                   </div>
                   <button
@@ -386,7 +416,7 @@ export const Projects = () => {
                         <img
                           src={page.image}
                           alt={page.name}
-                          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                          className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent"></div>
                         <h5 className="absolute bottom-3 left-3 font-semibold text-white">
