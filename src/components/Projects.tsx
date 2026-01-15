@@ -104,7 +104,7 @@ export const Projects = () => {
       image: tolotananaHome,
       type: 'web',
       technologies: ['TypeScript','Next.js','Tailwind CSS', 'Nest.js', 'PostgreSQL'],
-      liveUrl: 'https://tolotanana-next-frontend-miix.onrender.com/',
+      liveUrl: 'https://tolotanana.com/',
       githubUrl: 'https://github.com/antonioramana',
       screenshots: [
         tolotananaHome,
