@@ -78,7 +78,7 @@ export const Projects = () => {
     {
       id: 1,
       title: 'Assisteko',
-      description: "Une plateforme SaaS de création de chatbots IA en quelques minutes. Ajoutez votre base de connaissance, et Assisteko crée un assistant intelligent qui répond à vos clients 24h/24 sur votre site web, WhatsApp, Telegram et Facebook Messenger. Widget intégrable, réponses en temps réel avec streaming, et gestion multi-canaux.",
+      description: "Une plateforme SaaS de creation de chatbots IA en quelques minutes. Ajoutez votre base de connaissance, et Assisteko cree un assistant intelligent qui repond a vos clients 24h/24 sur votre site web, WhatsApp, Telegram et Facebook Messenger. Widget integrable, reponses en temps reel avec streaming, et gestion multi-canaux.",
       image: assistekoHome,
       type: 'web',
       technologies: ['React', 'TypeScript', 'Tailwind CSS', 'NestJS', 'PostgreSQL', 'RAG', 'Embedding', 'Gemini', 'OpenAI', 'Mistral', 'Ollama', 'OpenRouter'],
@@ -96,33 +96,33 @@ export const Projects = () => {
         assistekoTelegram
       ],
       pages: [
-        { name: 'Page d\'Accueil', description: 'Landing page avec présentation des fonctionnalités : réponses intelligentes, streaming, widget intégrable et multi-canaux', image: assistekoHome },
-        { name: 'Connexion', description: 'Page de connexion sécurisée avec authentification par email/mot de passe et Google', image: assistekoLogin },
-        { name: 'Dashboard', description: 'Tableau de bord avec liste des chatbots créés, accès rapide à la gestion et aux tests', image: assistekoBotList },
+        { name: 'Page d\'Accueil', description: 'Landing page avec presentation des fonctionnalites : reponses intelligentes, streaming, widget integrable et multi-canaux', image: assistekoHome },
+        { name: 'Connexion', description: 'Page de connexion securisee avec authentification par email/mot de passe et Google', image: assistekoLogin },
+        { name: 'Dashboard', description: 'Tableau de bord avec liste des chatbots crees, acces rapide a la gestion et aux tests', image: assistekoBotList },
         { name: 'Base de Connaissance', description: 'Gestion des sources de connaissance du chatbot : import de fichiers PDF, Word, TXT, MD, CSV et images', image: assistekoBaseConnaissance },
-        { name: 'Intégration & Widget', description: 'Personnalisation du widget (couleur, position, titre) avec aperçu en direct et code d\'intégration', image: assistekoIntegration },
+        { name: 'Integration & Widget', description: 'Personnalisation du widget (couleur, position, titre) avec apercu en direct et code d\'integration', image: assistekoIntegration },
         { name: 'Canaux', description: 'Configuration des canaux de diffusion : Telegram, WhatsApp et Facebook Messenger', image: assistekoCanaux },
-        { name: 'Test du Chat', description: 'Interface de test des conversations avec le chatbot et historique des échanges', image: assistekoConversations },
-        { name: 'Widget sur Site Web', description: 'Démonstration du widget IA intégré directement sur le site d\'un client', image: assistekoInSiteWeb },
-        { name: 'Bot Telegram', description: 'Le chatbot en action sur Telegram, répondant aux questions des clients en temps réel', image: assistekoTelegram }
+        { name: 'Test du Chat', description: 'Interface de test des conversations avec le chatbot et historique des echanges', image: assistekoConversations },
+        { name: 'Widget sur Site Web', description: 'Demonstration du widget IA integre directement sur le site d\'un client', image: assistekoInSiteWeb },
+        { name: 'Bot Telegram', description: 'Le chatbot en action sur Telegram, repondant aux questions des clients en temps reel', image: assistekoTelegram }
       ],
       features: [
-        'Création de chatbot IA en quelques minutes',
+        'Creation de chatbot IA en quelques minutes',
         'Base de connaissance multi-formats',
-        'Widget personnalisable et intégrable',
-        'Réponses en temps réel avec streaming',
+        'Widget personnalisable et integrable',
+        'Reponses en temps reel avec streaming',
         'Multi-canaux : site web, Telegram, WhatsApp, Facebook',
         'Test et historique des conversations',
-        'Authentification sécurisée'
+        'Authentification securisee'
       ]
     },
     {
       id: 2,
       title: 'Hitadidy',
-      description: "Une application intelligente de révision alimentée par l'IA qui transforme n'importe quel sujet ou document en cartes de révision interactives. Créez facilement des flashcards personnalisées à partir de vos fichiers (images, PDF) ou de simples sujets, et testez vos connaissances avec des quiz adaptatifs.",
+      description: "Une application intelligente de revision alimentee par l'IA qui transforme n'importe quel sujet ou document en cartes de revision interactives.",
       image: hitadidyHome,
       type: 'web',
-      technologies: ['React', 'TypeScript', 'Tailwind Css', 'API Gemini', 'LocalStorage'],
+      technologies: ['React', 'TypeScript', 'Tailwind CSS', 'API Gemini', 'LocalStorage'],
       liveUrl: 'https://hitadidy.onrender.com/',
       githubUrl: 'https://github.com/antonioramana',
       screenshots: [
@@ -133,16 +133,16 @@ export const Projects = () => {
         hitadidyQuizResult,
       ],
       pages: [
-        { name: 'Création de Cartes', description: 'Page d\'accueil pour créer des cartes de révision à partir de sujets ou documents avec l\'IA', image: hitadidyHome },
-        { name: 'Gestion des Paquets', description: 'Interface de gestion des paquets de révision avec catégories (Toutes, À revoir, Maîtrisées)', image: hitadidyHome2 },
-        { name: 'Quiz en Cours', description: 'Interface de quiz interactif avec questions à choix multiples et suivi du temps', image: hitadidyQuestionsAnswers },
-        { name: 'Question de Quiz', description: 'Affichage des questions avec réponses correctes/incorrectes mises en évidence', image: hitadidyQuiz2 },
-        { name: 'Résultats du Quiz', description: 'Page de résultats avec score, temps écoulé et options pour recommencer ou retourner', image: hitadidyQuizResult }
+        { name: 'Creation de Cartes', description: 'Page d\'accueil pour creer des cartes de revision a partir de sujets ou documents avec l\'IA', image: hitadidyHome },
+        { name: 'Gestion des Paquets', description: 'Interface de gestion des paquets de revision avec categories (Toutes, A revoir, Maitrisees)', image: hitadidyHome2 },
+        { name: 'Quiz en Cours', description: 'Interface de quiz interactif avec questions a choix multiples et suivi du temps', image: hitadidyQuestionsAnswers },
+        { name: 'Question de Quiz', description: 'Affichage des questions avec reponses correctes/incorrectes mises en evidence', image: hitadidyQuiz2 },
+        { name: 'Resultats du Quiz', description: 'Page de resultats avec score, temps ecoule et options pour recommencer ou retourner', image: hitadidyQuizResult }
       ],
       features: [
-        'Flashcards avec génération par IA,',
+        'Flashcards avec generation par IA',
         'Quiz interactifs',
-        'Suivi de maîtrise',
+        'Suivi de maitrise',
         'Sauvegarde localement',
         'Interface responsive'
       ]
@@ -150,10 +150,10 @@ export const Projects = () => {
     {
       id: 3,
       title: 'Tolotanana',
-      description: "Une plateforme de crowdfunding (financement participatif) qui permet de connecter les personnes généreuses aux causes qui ont besoin d'aide. La plateforme permet aux utilisateurs de créer des campagnes de collecte de fonds, de faire des dons, et de suivre l'impact de leurs contributions en temps réel.",
+      description: "Une plateforme de crowdfunding (financement participatif) qui permet de connecter les personnes genereuses aux causes qui ont besoin d'aide.",
       image: tolotananaHome,
       type: 'web',
-      technologies: ['TypeScript','Next.js','Tailwind CSS', 'Nest.js', 'PostgreSQL'],
+      technologies: ['TypeScript', 'Next.js', 'Tailwind CSS', 'Nest.js', 'PostgreSQL'],
       liveUrl: 'https://tolotanana.com/',
       githubUrl: 'https://github.com/antonioramana',
       screenshots: [
@@ -166,19 +166,19 @@ export const Projects = () => {
         tolotananaInfoBancaire
       ],
       pages: [
-        { name: 'Page d\'Accueil', description: 'Page d\'accueil avec présentation de la plateforme, statistiques et call-to-action', image: tolotananaHome },
-        { name: 'Inscription', description: 'Modal d\'inscription avec formulaire de création de compte et reCAPTCHA', image: tolotananaInscription },
-        { name: 'Liste des Campagnes', description: 'Page de découverte des campagnes avec filtres, recherche et statistiques', image: tolotananaListCampagn },
-        { name: 'Détail d\'une Campagne', description: 'Page détaillée d\'une campagne avec progression, organisateur et modal de don', image: tolotananaDetailCampagn },
-        { name: 'Dashboard Admin', description: 'Vue d\'ensemble de la plateforme avec métriques clés, graphiques et statistiques', image: tolotananaDashAdmin },
+        { name: 'Page d\'Accueil', description: 'Page d\'accueil avec presentation de la plateforme, statistiques et call-to-action', image: tolotananaHome },
+        { name: 'Inscription', description: 'Modal d\'inscription avec formulaire de creation de compte et reCAPTCHA', image: tolotananaInscription },
+        { name: 'Liste des Campagnes', description: 'Page de decouverte des campagnes avec filtres, recherche et statistiques', image: tolotananaListCampagn },
+        { name: 'Detail d\'une Campagne', description: 'Page detaillee d\'une campagne avec progression, organisateur et modal de don', image: tolotananaDetailCampagn },
+        { name: 'Dashboard Admin', description: 'Vue d\'ensemble de la plateforme avec metriques cles, graphiques et statistiques', image: tolotananaDashAdmin },
         { name: 'Transactions Admin', description: 'Gestion des transactions et paiements dans le tableau de bord administrateur', image: tolotananaTransactionAdmin },
-        { name: 'Informations Bancaires', description: 'Configuration des informations bancaires et méthodes de paiement Mobile Money', image: tolotananaInfoBancaire }
+        { name: 'Informations Bancaires', description: 'Configuration des informations bancaires et methodes de paiement Mobile Money', image: tolotananaInfoBancaire }
       ],
       features: [
-        'Participation en temps réel',
-        'Vérification par reCAPTCHA ',
-        'Système de notifications',
-        'Partage de capagnes',
+        'Participation en temps reel',
+        'Verification par reCAPTCHA',
+        'Systeme de notifications',
+        'Partage de campagnes',
         'Graphiques de progression',
         'Transaction'
       ]
@@ -186,10 +186,10 @@ export const Projects = () => {
     {
       id: 4,
       title: 'Nahandroko',
-      description: 'Une application web qui génère des recettes de cuisine personnalisées à partir des ingrédients que vous avez dans votre frigo.',
+      description: 'Une application web qui genere des recettes de cuisine personnalisees a partir des ingredients que vous avez dans votre frigo.',
       image: nahandrokoHome,
       type: 'web',
-      technologies: ['React', 'TypeScript', 'Tailwind Css', 'API Gemini', 'LocalStorage'],
+      technologies: ['React', 'TypeScript', 'Tailwind CSS', 'API Gemini', 'LocalStorage'],
       liveUrl: 'https://nahandroko.onrender.com/',
       githubUrl: 'https://github.com/antonioramana',
       screenshots: [
@@ -199,25 +199,25 @@ export const Projects = () => {
         nahandrokoFavoris
       ],
       pages: [
-        { name: 'Page d\'Accueil', description: 'Interface principale pour saisir les ingrédients disponibles et générer des recettes', image: nahandrokoHome },
-        { name: 'Génération de Recettes', description: 'Affichage des recettes générées par l\'IA à partir des ingrédients saisis', image: nahandrokoGenerationRecette },
-        { name: 'Détails de Recette', description: 'Carte détaillée de recette avec étapes de préparation, ingrédients et temps de cuisson', image: nahandrokoEtape },
-        { name: 'Mes Favoris', description: 'Page de gestion des recettes favorites avec possibilité de les consulter et supprimer', image: nahandrokoFavoris }
+        { name: 'Page d\'Accueil', description: 'Interface principale pour saisir les ingredients disponibles et generer des recettes', image: nahandrokoHome },
+        { name: 'Generation de Recettes', description: 'Affichage des recettes generees par l\'IA a partir des ingredients saisis', image: nahandrokoGenerationRecette },
+        { name: 'Details de Recette', description: 'Carte detaillee de recette avec etapes de preparation, ingredients et temps de cuisson', image: nahandrokoEtape },
+        { name: 'Mes Favoris', description: 'Page de gestion des recettes favorites avec possibilite de les consulter et supprimer', image: nahandrokoFavoris }
       ],
       features: [
-        'Génération de recettes',
-        'Système de favoris',
+        'Generation de recettes',
+        'Systeme de favoris',
         'Proposition de recettes par IA',
         'Interface moderne',
-     ]
+      ]
     },
     {
       id: 5,
       title: 'Ashera',
-      description: 'Une plateforme de vente aux enchères en temps réel',
+      description: 'Une plateforme de vente aux encheres en temps reel',
       image: asheraHome,
       type: 'web',
-      technologies: ['TypeScript','React.js','Tailwind CSS', 'Nest.js', 'Socket.io', 'PostgreSQL'],
+      technologies: ['TypeScript', 'React.js', 'Tailwind CSS', 'Nest.js', 'Socket.io', 'PostgreSQL'],
       liveUrl: 'https://github.com/antonioramana',
       githubUrl: 'https://github.com/antonioramana',
       screenshots: [
@@ -229,16 +229,16 @@ export const Projects = () => {
         asheraChatBot
       ],
       pages: [
-        { name: 'Page d\'Accueil', description: 'Page d\'accueil avec présentation de la plateforme, statistiques et enchères en direct', image: asheraHome },
-        { name: 'Liste des Enchères', description: 'Page de liste de toutes les enchères avec filtres avancés et catégories', image: asheraListeVente },
-        { name: 'Plans d\'Abonnement', description: 'Page de gestion des abonnements avec les différents plans (Basique, Entreprise, Premium)', image: asheraPlanAbonnement },
-        { name: 'Notification de Gain', description: 'Modal de félicitations pour les enchères remportées avec options de paiement', image: asheraNotificationGagnant },
-        { name: 'Détail d\'une Enchère', description: 'Page détaillée d\'une enchère avec options d\'offre, historique et chat en direct', image: asheraDetailEnchere },
-        { name: 'Assistant IA Chatbot', description: 'Interface de chatbot intelligent pour répondre aux questions sur les produits et les enchères', image: asheraChatBot }
+        { name: 'Page d\'Accueil', description: 'Page d\'accueil avec presentation de la plateforme, statistiques et encheres en direct', image: asheraHome },
+        { name: 'Liste des Encheres', description: 'Page de liste de toutes les encheres avec filtres avances et categories', image: asheraListeVente },
+        { name: 'Plans d\'Abonnement', description: 'Page de gestion des abonnements avec les differents plans (Basique, Entreprise, Premium)', image: asheraPlanAbonnement },
+        { name: 'Notification de Gain', description: 'Modal de felicitations pour les encheres remportees avec options de paiement', image: asheraNotificationGagnant },
+        { name: 'Detail d\'une Enchere', description: 'Page detaillee d\'une enchere avec options d\'offre, historique et chat en direct', image: asheraDetailEnchere },
+        { name: 'Assistant IA Chatbot', description: 'Interface de chatbot intelligent pour repondre aux questions sur les produits et les encheres', image: asheraChatBot }
       ],
       features: [
         'Authentification',
-        'Mise en temps réel',
+        'Mise en temps reel',
         'Chatbot intelligent',
         'Notification',
         'Email',
@@ -260,7 +260,7 @@ export const Projects = () => {
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-4">
             Mes Projets
           </h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-pink-500 via-purple-500 to-pink-500 mx-auto rounded-full"></div>
+          <div className="w-20 h-1 bg-gradient-to-r from-mocha-500 via-mocha-400 to-mocha-600 mx-auto rounded-full"></div>
         </div>
 
         <div className="flex flex-wrap justify-center gap-4 mb-12">
@@ -268,8 +268,8 @@ export const Projects = () => {
             onClick={() => setFilter('all')}
             className={`px-8 py-3 rounded-full font-medium transition-all duration-300 transform hover:scale-105 flex items-center gap-2 ${
               filter === 'all'
-                ? 'bg-gradient-to-r from-pink-500 via-purple-500 to-pink-500 text-white shadow-lg shadow-pink-500/50'
-                : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 border-2 border-gray-200 dark:border-gray-700 hover:border-pink-500'
+                ? 'bg-gradient-to-r from-mocha-500 via-mocha-400 to-mocha-600 text-white shadow-lg shadow-mocha-500/50'
+                : 'bg-vanilla-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 border-2 border-vanilla-600 dark:border-gray-700 hover:border-mocha-500'
             }`}
           >
             <span>Tous les Projets</span>
@@ -279,8 +279,8 @@ export const Projects = () => {
             onClick={() => setFilter('web')}
             className={`px-8 py-3 rounded-full font-medium transition-all duration-300 transform hover:scale-105 flex items-center gap-2 ${
               filter === 'web'
-                ? 'bg-gradient-to-r from-pink-500 via-purple-500 to-pink-500 text-white shadow-lg shadow-pink-500/50'
-                : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 border-2 border-gray-200 dark:border-gray-700 hover:border-pink-500'
+                ? 'bg-gradient-to-r from-mocha-500 via-mocha-400 to-mocha-600 text-white shadow-lg shadow-mocha-500/50'
+                : 'bg-vanilla-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 border-2 border-vanilla-600 dark:border-gray-700 hover:border-mocha-500'
             }`}
           >
             <Globe size={18} />
@@ -291,8 +291,8 @@ export const Projects = () => {
             onClick={() => setFilter('mobile')}
             className={`px-8 py-3 rounded-full font-medium transition-all duration-300 transform hover:scale-105 flex items-center gap-2 ${
               filter === 'mobile'
-                ? 'bg-gradient-to-r from-pink-500 via-purple-500 to-pink-500 text-white shadow-lg shadow-pink-500/50'
-                : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 border-2 border-gray-200 dark:border-gray-700 hover:border-pink-500'
+                ? 'bg-gradient-to-r from-mocha-500 via-mocha-400 to-mocha-600 text-white shadow-lg shadow-mocha-500/50'
+                : 'bg-vanilla-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 border-2 border-vanilla-600 dark:border-gray-700 hover:border-mocha-500'
             }`}
           >
             <Smartphone size={18} />
@@ -305,7 +305,7 @@ export const Projects = () => {
           {filteredProjects.map((project) => (
             <div
               key={project.id}
-              className="group bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-700 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+              className="group bg-gradient-to-br from-vanilla-50 to-vanilla-200 dark:from-gray-800 dark:to-gray-700 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
             >
               <div className="relative h-64 overflow-hidden">
                 <img
@@ -313,7 +313,7 @@ export const Projects = () => {
                   alt={project.title}
                   className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-mocha-900/80 to-transparent"></div>
               </div>
 
               <div className="p-6">
@@ -328,7 +328,7 @@ export const Projects = () => {
                   {project.technologies.map((tech, index) => (
                     <span
                       key={index}
-                      className="px-3 py-1 bg-gradient-to-r from-pink-500/10 to-purple-500/10 text-pink-500 dark:text-pink-400 rounded-full text-sm font-medium"
+                      className="px-3 py-1 bg-gradient-to-r from-mocha-500/10 to-vanilla-700/10 text-mocha-500 dark:text-vanilla-400 rounded-full text-sm font-medium"
                     >
                       {tech}
                     </span>
@@ -338,9 +338,9 @@ export const Projects = () => {
                 <div className="flex items-center gap-4">
                   <button
                     onClick={() => openProject(project)}
-                    className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-pink-500 via-purple-500 to-pink-500 text-white rounded-lg hover:shadow-lg transition-all duration-300"
+                    className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-mocha-500 via-mocha-400 to-mocha-600 text-white rounded-lg hover:shadow-lg transition-all duration-300"
                   >
-                    Détails
+                    Details
                     <ChevronRight size={16} />
                   </button>
                   {project.liveUrl && (
@@ -348,7 +348,7 @@ export const Projects = () => {
                       href={project.liveUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="p-2 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-lg hover:text-pink-500 transition-colors duration-300"
+                      className="p-2 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-lg hover:text-mocha-500 transition-colors duration-300"
                     >
                       <ExternalLink size={20} />
                     </a>
@@ -358,7 +358,7 @@ export const Projects = () => {
                       href={project.githubUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="p-2 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-lg hover:text-pink-500 transition-colors duration-300"
+                      className="p-2 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-lg hover:text-mocha-500 transition-colors duration-300"
                     >
                       <Github size={20} />
                     </a>
@@ -373,13 +373,13 @@ export const Projects = () => {
       {selectedProject && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm">
           <div className="bg-white dark:bg-gray-800 rounded-2xl max-w-6xl w-full max-h-[90vh] overflow-y-auto">
-            <div className="sticky top-0 bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 p-6 flex items-center justify-between">
+            <div className="sticky top-0 bg-white dark:bg-gray-800 border-b border-vanilla-600/30 dark:border-gray-700 p-6 flex items-center justify-between z-10">
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
                 {selectedProject.title}
               </h3>
               <button
                 onClick={() => setSelectedProject(null)}
-                className="p-2 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg transition-colors duration-300"
+                className="p-2 hover:bg-vanilla-100 dark:hover:bg-gray-700 rounded-lg transition-colors duration-300"
               >
                 <X className="text-gray-700 dark:text-gray-300" size={24} />
               </button>
@@ -391,7 +391,7 @@ export const Projects = () => {
                   Galerie d'Images
                 </h4>
                 <div className="relative">
-                  <div className="relative h-[32rem] rounded-xl overflow-hidden bg-gray-100 dark:bg-gray-900 border border-gray-200 dark:border-gray-700">
+                  <div className="relative h-[32rem] rounded-xl overflow-hidden bg-vanilla-50 dark:bg-gray-900 border border-vanilla-600/30 dark:border-gray-700">
                     <img
                       src={selectedProject.screenshots[currentImageIndex]}
                       alt={`Screenshot ${currentImageIndex + 1}`}
@@ -417,7 +417,7 @@ export const Projects = () => {
                         onClick={() => setCurrentImageIndex(index)}
                         className={`w-2 h-2 rounded-full transition-all duration-300 ${
                           index === currentImageIndex
-                            ? 'w-8 bg-pink-500'
+                            ? 'w-8 bg-mocha-500'
                             : 'bg-white/70 hover:bg-white'
                         }`}
                       />
@@ -437,7 +437,7 @@ export const Projects = () => {
 
               <div>
                 <h4 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">
-                  Fonctionnalités Principales
+                  Fonctionnalites Principales
                 </h4>
                 <ul className="space-y-2">
                   {selectedProject.features.map((feature, index) => (
@@ -445,7 +445,7 @@ export const Projects = () => {
                       key={index}
                       className="flex items-center gap-3 text-gray-600 dark:text-gray-400"
                     >
-                      <div className="w-2 h-2 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full"></div>
+                      <div className="w-2 h-2 bg-gradient-to-r from-mocha-500 to-mocha-400 rounded-full"></div>
                       {feature}
                     </li>
                   ))}
@@ -460,9 +460,9 @@ export const Projects = () => {
                   {selectedProject.pages.map((page, index) => (
                     <div
                       key={index}
-                      className="group overflow-hidden bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-700 dark:to-gray-600 rounded-xl hover:shadow-xl transition-all duration-300 border border-gray-200 dark:border-gray-600"
+                      className="group overflow-hidden bg-gradient-to-br from-vanilla-50 to-vanilla-200 dark:from-gray-700 dark:to-gray-600 rounded-xl hover:shadow-xl transition-all duration-300 border border-vanilla-600/30 dark:border-gray-600"
                     >
-                      <div className="relative h-56 overflow-hidden bg-gray-100 dark:bg-gray-900">
+                      <div className="relative h-56 overflow-hidden bg-vanilla-50 dark:bg-gray-900">
                         <img
                           src={page.image}
                           alt={page.name}
@@ -484,13 +484,13 @@ export const Projects = () => {
 
               <div>
                 <h4 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">
-                  Technologies Utilisées
+                  Technologies Utilisees
                 </h4>
                 <div className="flex flex-wrap gap-3">
                   {selectedProject.technologies.map((tech, index) => (
                     <span
                       key={index}
-                      className="px-4 py-2 bg-gradient-to-r from-pink-500 via-purple-500 to-pink-500 text-white rounded-lg font-medium"
+                      className="px-4 py-2 bg-gradient-to-r from-mocha-500 via-mocha-400 to-mocha-600 text-white rounded-lg font-medium"
                     >
                       {tech}
                     </span>

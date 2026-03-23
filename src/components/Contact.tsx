@@ -43,7 +43,7 @@ export const Contact = () => {
     },
     {
       icon: Phone,
-      label: 'Téléphone',
+      label: 'Telephone',
       value: '+261 32 81 832 73',
       href: 'tel:+261328183273'
     },
@@ -56,15 +56,15 @@ export const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-900 transition-colors duration-300">
+    <section id="contact" className="py-20 bg-gradient-to-br from-vanilla-50 to-vanilla-200 dark:from-gray-800 dark:to-gray-900 transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-4">
             Me Contacter
           </h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-pink-500 via-purple-500 to-pink-500 mx-auto rounded-full"></div>
+          <div className="w-20 h-1 bg-gradient-to-r from-mocha-500 via-mocha-400 to-mocha-600 mx-auto rounded-full"></div>
           <p className="mt-4 text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Une question ou une proposition ? N'hésitez pas à me contacter, je vous répondrai dans les plus brefs délais.
+            Une question ou une proposition ? N'hesitez pas a me contacter, je vous repondrai dans les plus brefs delais.
           </p>
         </div>
 
@@ -80,7 +80,7 @@ export const Contact = () => {
                     key={index}
                     className="flex items-start gap-4 p-4 bg-white dark:bg-gray-800 rounded-lg hover:shadow-lg transition-shadow duration-300"
                   >
-                    <div className="p-3 bg-gradient-to-br from-pink-500 to-purple-500 rounded-lg">
+                    <div className="p-3 bg-gradient-to-br from-mocha-500 to-mocha-400 rounded-lg">
                       <info.icon className="text-white" size={24} />
                     </div>
                     <div>
@@ -90,7 +90,7 @@ export const Contact = () => {
                       {info.href ? (
                         <a
                           href={info.href}
-                          className="text-gray-900 dark:text-white font-medium hover:text-pink-500 transition-colors duration-300"
+                          className="text-gray-900 dark:text-white font-medium hover:text-mocha-500 transition-colors duration-300"
                         >
                           {info.value}
                         </a>
@@ -107,10 +107,10 @@ export const Contact = () => {
 
             <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-lg">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
-                Disponibilité
+                Disponibilite
               </h3>
               <p className="text-gray-600 dark:text-gray-400 mb-4">
-                Je suis actuellement disponible pour des projets freelance et des opportunités à temps plein.
+                Je suis actuellement disponible pour des projets freelance et des opportunites a temps plein.
               </p>
               <div className="flex items-center gap-2">
                 <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
@@ -136,7 +136,7 @@ export const Contact = () => {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500 text-gray-900 dark:text-white transition-all duration-300"
+                  className="w-full px-4 py-3 bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-mocha-500 text-gray-900 dark:text-white transition-all duration-300"
                   placeholder="Votre nom"
                 />
               </div>
@@ -152,7 +152,7 @@ export const Contact = () => {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500 text-gray-900 dark:text-white transition-all duration-300"
+                  className="w-full px-4 py-3 bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-mocha-500 text-gray-900 dark:text-white transition-all duration-300"
                   placeholder="votre.email@example.com"
                 />
               </div>
@@ -168,7 +168,7 @@ export const Contact = () => {
                   value={formData.subject}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500 text-gray-900 dark:text-white transition-all duration-300"
+                  className="w-full px-4 py-3 bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-mocha-500 text-gray-900 dark:text-white transition-all duration-300"
                   placeholder="Sujet de votre message"
                 />
               </div>
@@ -184,7 +184,7 @@ export const Contact = () => {
                   onChange={handleChange}
                   required
                   rows={5}
-                  className="w-full px-4 py-3 bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500 text-gray-900 dark:text-white transition-all duration-300 resize-none"
+                  className="w-full px-4 py-3 bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-mocha-500 text-gray-900 dark:text-white transition-all duration-300 resize-none"
                   placeholder="Votre message..."
                 />
               </div>
@@ -192,7 +192,7 @@ export const Contact = () => {
               <button
                 type="submit"
                 disabled={status === 'sending'}
-                className="w-full px-6 py-3 bg-gradient-to-r from-pink-500 via-purple-500 to-pink-500 text-white rounded-lg font-medium hover:shadow-lg hover:shadow-pink-500/50 transition-all duration-300 transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                className="w-full px-6 py-3 bg-gradient-to-r from-mocha-500 via-mocha-400 to-mocha-600 text-white rounded-lg font-medium hover:shadow-lg hover:shadow-mocha-500/50 transition-all duration-300 transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
               >
                 {status === 'sending' ? (
                   <>
@@ -200,9 +200,9 @@ export const Contact = () => {
                     Envoi en cours...
                   </>
                 ) : status === 'success' ? (
-                  'Message envoyé !'
+                  'Message envoye !'
                 ) : status === 'error' ? (
-                  'Erreur, réessayez'
+                  'Erreur, reessayez'
                 ) : (
                   <>
                     Envoyer
