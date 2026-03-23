@@ -1,0 +1,241 @@
+===== IDENTIFICATION =====
+
+Nom complet : Antonio Ramanandraibe
+Poste actuel : Developpeur Fullstack & IA
+Statut : Disponible pour des projets freelance et des opportunites a temps plein
+Localisation : Fianarantsoa, Madagascar
+Email : antonioramanandraibe@gmail.com
+Telephone : +261 32 81 832 73
+GitHub : https://github.com/antonioramana
+LinkedIn : https://linkedin.com/in/antonio-ramanandraibe-19a370276/
+Portfolio : https://antonio-portfolio.onrender.com (ou equivalent)
+
+
+===== PRESENTATION GENERALE =====
+
+Antonio Ramanandraibe est un developpeur fullstack et IA, recemment diplome ingenieur en Genie Logiciel et Bases de Donnees a l'Ecole Nationale d'Informatique (ENI). Il se specialise dans le developpement web full stack et l'integration de solutions d'intelligence artificielle pour creer des applications modernes et intelligentes.
+
+Son approche combine creativite et rigueur technique pour livrer des solutions qui repondent aux besoins fonctionnels tout en integrant des capacites d'IA avancees : chatbots RAG, automatisation, et agents intelligents.
+
+Autonome et oriente resultats, il est capable de gerer des projets de bout en bout, de la conception au deploiement, avec un focus sur la performance et l'experience utilisateur.
+
+
+===== FORMATIONS & DIPLOMES =====
+
+1. Master II en Genie Logiciel et Bases de Donnees
+   - Etablissement : Ecole Nationale d'Informatique (ENI)
+   - Periode : 2024 - 2025
+   - Specialisation : Developpement web et applications mobiles, architecture logicielle moderne
+   - Realisations : Mention Tres Bien, Projet de fin d'etudes prime, Stage de 6 mois chez Miezaka
+
+2. Licence en Genie Logiciel et Bases de Donnees
+   - Etablissement : Ecole Nationale d'Informatique (ENI)
+   - Periode : 2022 - 2023
+   - Formation complete en informatique : programmation, bases de donnees, reseaux
+   - Realisations : Mention Tres Bien, Projets collaboratifs en equipe, Stage de 3 mois chez Softlab
+
+3. Baccalaureat Serie C
+   - Etablissement : Lycee Saint Vincent de Paul
+   - Periode : 2018 - 2019
+   - Specialisation : Sciences mathematiques et physiques
+   - Realisations : Mention Bien, Excellence en Mathematiques
+
+
+===== EXPERIENCES PROFESSIONNELLES =====
+
+1. Developpeur Fullstack React.js/NestJS - Optimiti Agency LLC
+   - Periode : Novembre 2025 - Present
+   - Type : Collaboration internationale
+   - Description : Developpement et maintenance de l'ecosysteme Curly'Up. Pilotage du back-end sous NestJS (API REST, Stripe, securite) et integration fidele de maquettes Figma en composants React.js. Collaboration avec des data scientists pour l'integration d'APIs d'IA. Responsable de l'optimisation des performances front-end et back-end, assurant une experience utilisateur fluide et la conformite aux exigences techniques des cahiers des charges.
+   - Technologies : React, TypeScript, NestJS, Stripe, Figma, API IA, PostgreSQL
+
+2. Createur & Developpeur IA - Assisteko (Projet Personnel / Freelance)
+   - Periode : Janvier 2025 - Present
+   - Description : Conception et developpement d'Assisteko, une plateforme SaaS de creation de chatbots IA. Architecture RAG avec embeddings, integration multi-providers (OpenAI, Gemini, Mistral, Ollama, OpenRouter), deploiement multi-canaux (widget web, Telegram, WhatsApp, Facebook Messenger), et reponses en streaming temps reel.
+   - Technologies : React, TypeScript, NestJS, PostgreSQL, RAG, Embeddings, OpenAI, Gemini, Mistral
+
+3. Stage Developpeur Fullstack React.js/Nest.js - Miezaka
+   - Periode : Juillet - Octobre 2025
+   - Description : Conception et developpement d'une plateforme de vente aux encheres en temps reel avec backend NestJS (API, WebSockets), frontend ReactJS, integration PostgreSQL, gestion Agile via Jira, versioning Git/GitHub et participation aux revues de code pour l'amelioration continue.
+   - Technologies : React, TypeScript, Tailwind CSS, Nest.js, PostgreSQL
+
+4. Developpeur Fullstack React.js/Laravel - Digital World Company
+   - Periode : Fevrier - Decembre 2024
+   - Description : Suivi du cahier des charges, conception des structures de donnees, developpement frontend et backend, et realisation des tests apres chaque implementation.
+   - Technologies : React, Next.js, Tailwind CSS, Laravel, PostgreSQL
+
+5. Stage Developpeur Fullstack React.js/Codeigniter - Softlab
+   - Periode : Septembre - Novembre 2023
+   - Description : Conception et developpement d'une application web d'entretien en ligne permettant aux recruteurs de creer et gerer des quiz en temps reel, et aux candidats de passer les evaluations directement sur la plateforme avec suivi des resultats et notifications.
+   - Technologies : React.js, Codeigniter, MySQL
+
+6. Stage Developpeur Frontend - World Business Solution
+   - Periode : Octobre - Decembre 2022
+   - Description : Conception et developpement frontend d'une plateforme web de gestion des eleves, incluant l'inscription, le suivi des absences, la saisie des notes et la generation des bulletins scolaires.
+   - Technologies : React.js, Bootstrap
+
+
+===== COMPETENCES TECHNIQUES =====
+
+--- Langages ---
+- JavaScript : 90%
+- TypeScript : 85%
+- Python : 75%
+- PHP : 80%
+
+--- Frontend ---
+- React : 90%
+- Next.js : 80%
+- Vue.js : 65%
+- Tailwind CSS : 85%
+
+--- Backend ---
+- Node.js : 85%
+- NestJS : 80%
+- Express : 80%
+- Laravel : 75%
+
+--- Bases de Donnees ---
+- PostgreSQL : 80%
+- MySQL : 85%
+- MongoDB : 70%
+
+--- Intelligence Artificielle ---
+- RAG & Embeddings : 75%
+- API IA (OpenAI, Gemini, Mistral) : 85%
+- NLP & Chatbots : 65%
+- Automatisation IA : 60%
+- Agents IA : 55%
+
+--- Outils & Methodes ---
+- Git & GitHub : 90%
+- Docker : 70%
+- Jira / Agile : 75%
+
+
+===== EXPERTISE EN INTELLIGENCE ARTIFICIELLE =====
+
+1. RAG & Embeddings
+   Antonio concoit des systemes de Retrieval-Augmented Generation pour des reponses contextuelles precises basees sur des bases de connaissance personnalisees. Il maitrise la creation de pipelines d'embeddings et de recherche vectorielle.
+
+2. Chatbots IA Multi-Canaux
+   Deploiement de chatbots intelligents sur plusieurs canaux simultanement : widget integrable sur site web, Telegram, WhatsApp et Facebook Messenger. Ces chatbots repondent 24h/24 aux questions des clients.
+
+3. APIs IA Multi-Providers
+   Integration de plusieurs fournisseurs d'IA avec switching dynamique : OpenAI, Google Gemini, Mistral, Ollama (local), OpenRouter. Cela permet de choisir le meilleur modele selon le cas d'usage et le budget.
+
+4. Automatisation & Workflows
+   Automatisation de taches repetitives, generation de contenu, analyse de donnees et creation de workflows intelligents pour les entreprises.
+
+
+===== DOMAINES DE COMPETENCES =====
+
+- Developpement Full Stack : Applications web completes, du frontend au backend, avec des architectures robustes
+- Intelligence Artificielle : Integration d'IA, chatbots RAG, automatisation et agents intelligents
+- UI/UX Design : Interfaces modernes et intuitives avec une attention aux details
+- Architecture Backend : APIs robustes, bases de donnees optimisees et systemes scalables
+- Chatbots & Automatisation : Creation de chatbots IA multi-canaux (web, Telegram, WhatsApp, Facebook)
+- Performance & Deploiement : Applications optimisees, CI/CD et deploiement en production
+
+
+===== PROJETS REALISES =====
+
+1. Assisteko - Plateforme SaaS de Chatbots IA
+   - Lien : https://assisteko-app.onrender.com/
+   - Type : Application Web
+   - Description : Une plateforme SaaS de creation de chatbots IA en quelques minutes. L'utilisateur ajoute sa base de connaissance, et Assisteko cree un assistant intelligent qui repond a ses clients 24h/24 sur son site web, WhatsApp, Telegram et Facebook Messenger. Widget integrable, reponses en temps reel avec streaming, et gestion multi-canaux.
+   - Technologies : React, TypeScript, Tailwind CSS, NestJS, PostgreSQL, RAG, Embedding, Gemini, OpenAI, Mistral, Ollama, OpenRouter
+   - Fonctionnalites :
+     * Creation de chatbot IA en quelques minutes
+     * Base de connaissance multi-formats (PDF, Word, TXT, MD, CSV, Images)
+     * Widget personnalisable et integrable sur n'importe quel site
+     * Reponses en temps reel avec streaming
+     * Multi-canaux : site web, Telegram, WhatsApp, Facebook Messenger
+     * Test et historique des conversations
+     * Authentification securisee (email/mot de passe et Google)
+     * Personnalisation du widget (couleur, position, titre, sous-titre)
+     * Code d'integration simple a copier-coller
+   - Pages : Page d'Accueil, Connexion, Dashboard, Base de Connaissance, Integration & Widget, Canaux, Test du Chat, Widget sur Site Web, Bot Telegram
+
+2. Hitadidy - Application de Revision par IA
+   - Lien : https://hitadidy.onrender.com/
+   - Type : Application Web
+   - Description : Une application intelligente de revision alimentee par l'IA qui transforme n'importe quel sujet ou document en cartes de revision interactives. Creation de flashcards personnalisees a partir de fichiers (images, PDF) ou de simples sujets, et quiz adaptatifs.
+   - Technologies : React, TypeScript, Tailwind CSS, API Gemini, LocalStorage
+   - Fonctionnalites :
+     * Flashcards avec generation par IA
+     * Quiz interactifs
+     * Suivi de maitrise
+     * Sauvegarde locale
+     * Interface responsive
+   - Pages : Creation de Cartes, Gestion des Paquets, Quiz en Cours, Question de Quiz, Resultats du Quiz
+
+3. Tolotanana - Plateforme de Crowdfunding
+   - Lien : https://tolotanana.com/
+   - Type : Application Web
+   - Description : Une plateforme de crowdfunding (financement participatif) qui permet de connecter les personnes genereuses aux causes qui ont besoin d'aide. Les utilisateurs peuvent creer des campagnes de collecte de fonds, faire des dons, et suivre l'impact de leurs contributions en temps reel.
+   - Technologies : TypeScript, Next.js, Tailwind CSS, Nest.js, PostgreSQL
+   - Fonctionnalites :
+     * Participation en temps reel
+     * Verification par reCAPTCHA
+     * Systeme de notifications
+     * Partage de campagnes
+     * Graphiques de progression
+     * Transaction et paiement Mobile Money
+   - Pages : Page d'Accueil, Inscription, Liste des Campagnes, Detail d'une Campagne, Dashboard Admin, Transactions Admin, Informations Bancaires
+
+4. Nahandroko - Generateur de Recettes par IA
+   - Lien : https://nahandroko.onrender.com/
+   - Type : Application Web
+   - Description : Une application web qui genere des recettes de cuisine personnalisees a partir des ingredients que l'utilisateur a dans son frigo, grace a l'intelligence artificielle.
+   - Technologies : React, TypeScript, Tailwind CSS, API Gemini, LocalStorage
+   - Fonctionnalites :
+     * Generation de recettes par IA
+     * Systeme de favoris
+     * Proposition de recettes personnalisees
+     * Interface moderne
+   - Pages : Page d'Accueil, Generation de Recettes, Details de Recette, Mes Favoris
+
+5. Ashera - Plateforme d'Encheres en Temps Reel
+   - Type : Application Web
+   - Description : Une plateforme de vente aux encheres en temps reel avec systeme de chat en direct, chatbot IA, plans d'abonnement et notifications.
+   - Technologies : TypeScript, React.js, Tailwind CSS, Nest.js, Socket.io, PostgreSQL
+   - Fonctionnalites :
+     * Authentification
+     * Encheres en temps reel via WebSockets
+     * Chatbot intelligent
+     * Notifications
+     * Email
+     * Paiement
+     * Livraison
+     * Plans d'abonnement (Basique, Entreprise, Premium)
+   - Pages : Page d'Accueil, Liste des Encheres, Plans d'Abonnement, Notification de Gain, Detail d'une Enchere, Assistant IA Chatbot
+
+
+===== CE QU'ANTONIO PEUT FAIRE POUR VOUS =====
+
+- Developper une application web complete (frontend + backend + base de donnees)
+- Creer un chatbot IA personnalise pour votre entreprise (site web, Telegram, WhatsApp, Facebook)
+- Integrer des APIs d'intelligence artificielle dans vos applications existantes
+- Automatiser des taches repetitives avec l'IA
+- Concevoir des systemes RAG pour exploiter vos bases de connaissance
+- Creer des interfaces modernes et responsive avec React et Tailwind CSS
+- Developper des APIs robustes avec NestJS ou Express
+- Deployer vos applications en production
+
+
+===== CONTACT & DISPONIBILITE =====
+
+Antonio est actuellement disponible pour :
+- Projets freelance
+- Collaborations internationales
+- Opportunites a temps plein
+- Missions en intelligence artificielle et developpement web
+
+Pour le contacter :
+- Email : antonioramanandraibe@gmail.com
+- Telephone : +261 32 81 832 73
+- LinkedIn : https://linkedin.com/in/antonio-ramanandraibe-19a370276/
+- GitHub : https://github.com/antonioramana
+
+Langues : Francais (courant), Malagasy (natif)
