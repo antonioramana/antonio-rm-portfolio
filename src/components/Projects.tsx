@@ -22,6 +22,15 @@ import tolotananaDetailCampagn from '../assets/projects/tolotanana/detail-campag
 import tolotananaDashAdmin from '../assets/projects/tolotanana/dash-admin.png';
 import tolotananaTransactionAdmin from '../assets/projects/tolotanana/transaction-admin.png';
 import tolotananaInfoBancaire from '../assets/projects/tolotanana/info-bancaire-tolotanana.png';
+import assistekoHome from '../assets/projects/assiteko/home.png';
+import assistekoLogin from '../assets/projects/assiteko/login.png';
+import assistekoBotList from '../assets/projects/assiteko/bot-list.png';
+import assistekoBaseConnaissance from '../assets/projects/assiteko/bot-base-connaissance.png';
+import assistekoIntegration from '../assets/projects/assiteko/bot-integration.png';
+import assistekoCanaux from '../assets/projects/assiteko/bot-canaux.png';
+import assistekoConversations from '../assets/projects/assiteko/bot-conversations.png';
+import assistekoInSiteWeb from '../assets/projects/assiteko/bot-in-site-web.png';
+import assistekoTelegram from '../assets/projects/assiteko/bot-canaux-telegram.png';
 
 interface ProjectPage {
   name: string;
@@ -68,6 +77,47 @@ export const Projects = () => {
   const projects: Project[] = [
     {
       id: 1,
+      title: 'Assisteko',
+      description: "Une plateforme SaaS de création de chatbots IA en quelques minutes. Ajoutez votre base de connaissance, et Assisteko crée un assistant intelligent qui répond à vos clients 24h/24 sur votre site web, WhatsApp, Telegram et Facebook Messenger. Widget intégrable, réponses en temps réel avec streaming, et gestion multi-canaux.",
+      image: assistekoHome,
+      type: 'web',
+      technologies: ['React', 'TypeScript', 'Tailwind CSS', 'NestJS', 'PostgreSQL', 'RAG', 'Embedding', 'Gemini', 'OpenAI', 'Mistral', 'Ollama', 'OpenRouter'],
+      liveUrl: 'https://assisteko-app.onrender.com/',
+      githubUrl: 'https://github.com/antonioramana',
+      screenshots: [
+        assistekoHome,
+        assistekoLogin,
+        assistekoBotList,
+        assistekoBaseConnaissance,
+        assistekoIntegration,
+        assistekoCanaux,
+        assistekoConversations,
+        assistekoInSiteWeb,
+        assistekoTelegram
+      ],
+      pages: [
+        { name: 'Page d\'Accueil', description: 'Landing page avec présentation des fonctionnalités : réponses intelligentes, streaming, widget intégrable et multi-canaux', image: assistekoHome },
+        { name: 'Connexion', description: 'Page de connexion sécurisée avec authentification par email/mot de passe et Google', image: assistekoLogin },
+        { name: 'Dashboard', description: 'Tableau de bord avec liste des chatbots créés, accès rapide à la gestion et aux tests', image: assistekoBotList },
+        { name: 'Base de Connaissance', description: 'Gestion des sources de connaissance du chatbot : import de fichiers PDF, Word, TXT, MD, CSV et images', image: assistekoBaseConnaissance },
+        { name: 'Intégration & Widget', description: 'Personnalisation du widget (couleur, position, titre) avec aperçu en direct et code d\'intégration', image: assistekoIntegration },
+        { name: 'Canaux', description: 'Configuration des canaux de diffusion : Telegram, WhatsApp et Facebook Messenger', image: assistekoCanaux },
+        { name: 'Test du Chat', description: 'Interface de test des conversations avec le chatbot et historique des échanges', image: assistekoConversations },
+        { name: 'Widget sur Site Web', description: 'Démonstration du widget IA intégré directement sur le site d\'un client', image: assistekoInSiteWeb },
+        { name: 'Bot Telegram', description: 'Le chatbot en action sur Telegram, répondant aux questions des clients en temps réel', image: assistekoTelegram }
+      ],
+      features: [
+        'Création de chatbot IA en quelques minutes',
+        'Base de connaissance multi-formats',
+        'Widget personnalisable et intégrable',
+        'Réponses en temps réel avec streaming',
+        'Multi-canaux : site web, Telegram, WhatsApp, Facebook',
+        'Test et historique des conversations',
+        'Authentification sécurisée'
+      ]
+    },
+    {
+      id: 2,
       title: 'Hitadidy',
       description: "Une application intelligente de révision alimentée par l'IA qui transforme n'importe quel sujet ou document en cartes de révision interactives. Créez facilement des flashcards personnalisées à partir de vos fichiers (images, PDF) ou de simples sujets, et testez vos connaissances avec des quiz adaptatifs.",
       image: hitadidyHome,
@@ -98,7 +148,7 @@ export const Projects = () => {
       ]
     },
     {
-      id: 2,
+      id: 3,
       title: 'Tolotanana',
       description: "Une plateforme de crowdfunding (financement participatif) qui permet de connecter les personnes généreuses aux causes qui ont besoin d'aide. La plateforme permet aux utilisateurs de créer des campagnes de collecte de fonds, de faire des dons, et de suivre l'impact de leurs contributions en temps réel.",
       image: tolotananaHome,
@@ -134,7 +184,7 @@ export const Projects = () => {
       ]
     },
     {
-      id: 3,
+      id: 4,
       title: 'Nahandroko',
       description: 'Une application web qui génère des recettes de cuisine personnalisées à partir des ingrédients que vous avez dans votre frigo.',
       image: nahandrokoHome,
@@ -162,7 +212,7 @@ export const Projects = () => {
      ]
     },
     {
-      id: 4,
+      id: 5,
       title: 'Ashera',
       description: 'Une plateforme de vente aux enchères en temps réel',
       image: asheraHome,
@@ -322,7 +372,7 @@ export const Projects = () => {
 
       {selectedProject && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm">
-          <div className="bg-white dark:bg-gray-800 rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+          <div className="bg-white dark:bg-gray-800 rounded-2xl max-w-6xl w-full max-h-[90vh] overflow-y-auto">
             <div className="sticky top-0 bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 p-6 flex items-center justify-between">
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
                 {selectedProject.title}
@@ -341,11 +391,11 @@ export const Projects = () => {
                   Galerie d'Images
                 </h4>
                 <div className="relative">
-                  <div className="relative h-96 rounded-xl overflow-hidden">
+                  <div className="relative h-[32rem] rounded-xl overflow-hidden bg-gray-100 dark:bg-gray-900 border border-gray-200 dark:border-gray-700">
                     <img
                       src={selectedProject.screenshots[currentImageIndex]}
                       alt={`Screenshot ${currentImageIndex + 1}`}
-                      className="w-full h-full object-contain"
+                      className="w-full h-full object-contain p-2"
                     />
                   </div>
                   <button
@@ -406,26 +456,27 @@ export const Projects = () => {
                 <h4 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">
                   Pages du Projet
                 </h4>
-                <div className="grid md:grid-cols-2 gap-4">
+                <div className="grid md:grid-cols-2 gap-6">
                   {selectedProject.pages.map((page, index) => (
                     <div
                       key={index}
-                      className="group overflow-hidden bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-700 dark:to-gray-600 rounded-lg hover:shadow-lg transition-all duration-300"
+                      className="group overflow-hidden bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-700 dark:to-gray-600 rounded-xl hover:shadow-xl transition-all duration-300 border border-gray-200 dark:border-gray-600"
                     >
-                      <div className="relative h-40 overflow-hidden">
+                      <div className="relative h-56 overflow-hidden bg-gray-100 dark:bg-gray-900">
                         <img
                           src={page.image}
                           alt={page.name}
-                          className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
+                          className="w-full h-full object-contain p-1 group-hover:scale-105 transition-transform duration-300"
                         />
-                        <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent"></div>
-                        <h5 className="absolute bottom-3 left-3 font-semibold text-white">
+                      </div>
+                      <div className="p-4">
+                        <h5 className="font-semibold text-gray-900 dark:text-white mb-1">
                           {page.name}
                         </h5>
+                        <p className="text-sm text-gray-600 dark:text-gray-400">
+                          {page.description}
+                        </p>
                       </div>
-                      <p className="p-4 text-sm text-gray-600 dark:text-gray-400">
-                        {page.description}
-                      </p>
                     </div>
                   ))}
                 </div>
