@@ -1,5 +1,10 @@
 import { useState } from 'react';
 import { Mail, MapPin, Phone, Send } from 'lucide-react';
+import emailjs from '@emailjs/browser';
+
+const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID as string | undefined;
+const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID as string | undefined;
+const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY as string | undefined;
 
 export const Contact = () => {
   const [formData, setFormData] = useState({
@@ -9,21 +14,45 @@ export const Contact = () => {
     message: ''
   });
   const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
+  const [errorMessage, setErrorMessage] = useState<string>('');
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+
+    if (!EMAILJS_SERVICE_ID || !EMAILJS_TEMPLATE_ID || !EMAILJS_PUBLIC_KEY) {
+      setStatus('error');
+      setErrorMessage('Configuration manquante. Verifiez le fichier .env');
+      setTimeout(() => setStatus('idle'), 4000);
+      return;
+    }
+
     setStatus('sending');
+    setErrorMessage('');
 
     try {
-      await new Promise(resolve => setTimeout(resolve, 1500));
+      await emailjs.send(
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          reply_to: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+          to_email: 'antonioramanandraibe@gmail.com',
+        },
+        { publicKey: EMAILJS_PUBLIC_KEY }
+      );
 
       setStatus('success');
       setFormData({ name: '', email: '', subject: '', message: '' });
-
-      setTimeout(() => setStatus('idle'), 3000);
+      setTimeout(() => setStatus('idle'), 4000);
     } catch (error) {
       setStatus('error');
-      setTimeout(() => setStatus('idle'), 3000);
+      setErrorMessage(
+        error instanceof Error ? error.message : "Echec de l'envoi, reessayez"
+      );
+      setTimeout(() => setStatus('idle'), 4000);
     }
   };
 
@@ -210,6 +239,17 @@ export const Contact = () => {
                   </>
                 )}
               </button>
+
+              {status === 'success' && (
+                <p className="text-sm text-green-600 dark:text-green-400 text-center">
+                  Merci ! Votre message a bien ete envoye, je vous repondrai rapidement.
+                </p>
+              )}
+              {status === 'error' && errorMessage && (
+                <p className="text-sm text-red-600 dark:text-red-400 text-center">
+                  {errorMessage}
+                </p>
+              )}
             </form>
           </div>
         </div>
