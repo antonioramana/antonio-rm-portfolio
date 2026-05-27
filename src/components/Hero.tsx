@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, ArrowDown, Sparkles } from 'lucide-react';
+import { Github, Linkedin, Mail, ArrowDown, Sparkles, Download } from 'lucide-react';
 import antonioImage from '../assets/me.png';
 
 export const Hero = () => {
@@ -59,6 +59,14 @@ export const Hero = () => {
             >
               Me Contacter
             </button>
+            <a
+              href="/CV_ANTONIO_RAM.pdf"
+              download="CV_Antonio_Ramanandraibe.pdf"
+              className="inline-flex items-center gap-2 px-8 py-3 bg-gradient-to-r from-vanilla-700 via-mocha-400 to-mocha-500 text-white rounded-full font-medium hover:shadow-lg hover:shadow-mocha-500/40 transition-all duration-300 transform hover:scale-105"
+            >
+              <Download size={18} />
+              Télécharger CV
+            </a>
             <a
               href="#projects"
               className="px-8 py-3 bg-white dark:bg-gray-800 text-gray-900 dark:text-white rounded-full font-medium border-2 border-vanilla-600 dark:border-gray-700 hover:border-mocha-500 dark:hover:border-mocha-400 transition-all duration-300"

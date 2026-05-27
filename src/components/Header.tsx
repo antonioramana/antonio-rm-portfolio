@@ -1,9 +1,10 @@
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Sun, Moon } from 'lucide-react';
 import { useState } from 'react';
 import antonioImage from '../assets/me.png';
+import { useTheme } from '../context/ThemeContext';
 
 export const Header = () => {
-
+  const { theme, toggleTheme } = useTheme();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navItems = [
@@ -51,7 +52,15 @@ export const Header = () => {
             ))}
           </div>
 
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-2 sm:space-x-3">
+            <button
+              onClick={toggleTheme}
+              className="p-2 rounded-lg bg-vanilla-100 dark:bg-mocha-700/40 text-mocha-500 dark:text-vanilla-300 hover:bg-vanilla-200 dark:hover:bg-mocha-600/50 hover:scale-110 transition-all duration-300 shadow-sm"
+              aria-label={theme === 'dark' ? 'Passer en mode clair' : 'Passer en mode sombre'}
+              title={theme === 'dark' ? 'Mode clair' : 'Mode sombre'}
+            >
+              {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
+            </button>
 
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
